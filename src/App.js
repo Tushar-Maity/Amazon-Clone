@@ -5,6 +5,7 @@ import Header from './Header';
 
 function App() {
   return (
+    {/* I would definitely code tomorrow for this project */}
     <Router>
       <div className="app">
       <Switch>
