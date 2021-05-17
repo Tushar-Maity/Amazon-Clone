@@ -5,7 +5,6 @@ import Header from './Header';
 
 function App() {
   return (
-    {/* I would definitely code tomorrow for this project */}
     <Router>
       <div className="app">
       <Switch>
@@ -22,7 +21,7 @@ function App() {
       </Switch>
       </div>
     </Router>
-  );
+  )
 }
 
 export default App;
