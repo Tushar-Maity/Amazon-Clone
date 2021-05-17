@@ -17,3 +17,9 @@
     z-index: -1;
     margin-bottom: -150px;
 }
+
+.middle__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
