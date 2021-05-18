@@ -7,7 +7,8 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="home">
+        <div className="final__home">
+            <div className="home">
             <Carousel
                 autoPlay
                 infiniteLoop
@@ -84,7 +85,9 @@ function Home() {
             </div>
             
             {/* https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Apple/May/MSD/iPhone12/D23407104_IN_WL_MSD_iPhone12_DesktopTallHero_1500x600._CB669806582_.jpg */}
-            <Footer />
+            
+        </div>
+        <Footer />
         </div>
     )
 }
