@@ -1,9 +1,17 @@
-#navFooter .navLeftFooter {
+.navLeftFooter {
     margin-bottom: 0;
     padding-bottom: 0;
     background-color: #232F3E;
     min-width: 1000px;
     position: relative;
+}
+
+#navFooter {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #232F3E;
+    min-width: 1000px;
+    position: relative
 }
 
 #navFooter {
@@ -15,6 +23,7 @@
 .navFooterBackToTop {
     margin-bottom: 40px;
     background-color: #37475A;
+    cursor: pointer;
 }
 
 .navFooterBackToTop > span {
@@ -28,3 +37,120 @@
 .navFooterBackToTopText {
     color: #fff;
 }
+
+.nav-footer-line {
+    border-top: 1px solid #3a4553;
+    margin-top: 40px;
+}
+
+.navFooterVerticalColumn {
+    display: table;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.navFooterVerticalRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    /* display: table-cell; */
+    /* margin: 0 auto;
+    padding:  0 10px; */
+}
+
+.navFooterLinkCol {
+    /* display: table-cell; */
+    color: #333;
+    vertical-align: top;
+    padding: 0 10px;
+    line-height: 120%;
+}
+
+.navAccessibility.navFooterLinkCol {
+    display: table-cell;
+    padding:  0 10px;
+}
+
+.navFooterColHead {
+    font-weight: 700;
+    color: #fff;
+}
+
+.navFooterLinkCol ul li {
+    margin: 0 0 10px;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+ul > li  {
+    word-wrap: break-word;
+}
+
+ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    /* text-decoration-line: solid; */
+    text-decoration-color: #DDD;
+}
+
+ul {
+    color: #0F1111;
+}
+ 
+li {
+    list-style: disc;
+}
+
+.nav_a {
+    color: #DDD;
+}
+
+.navFooterColHead {
+    font-family: inherit;
+    font-size: 16px;
+    margin: 6px 0 14px 0;
+    white-space: nowrap;
+}
+
+.navFooterColSpacerInner.navAccessibility {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+.navFooterColSpacerInner {
+    width: 10%;
+}
+
+
+
+.navFooterLine {
+    font-size: 12px;
+}
+
+.navFooterLinkLine {
+    margin: 10px auto;
+}
+
+.navFooterLinkLine > ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.navFooterLinkLine > ul > li {
+    display: inline;
+}
+
+.navFooterPadItemLine{
+    text-align: center;
+    max-width: 1000px;
+}
+
+.navFooterPadItemLine > li > span {
+    padding: 0.6em;
+}
+
+
+
