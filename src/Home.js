@@ -12,6 +12,9 @@ function Home() {
                 infiniteLoop
                 showThumbs={false}>
                 <div>
+                    <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Laptops/May/GGD/Gateway/D23436262_IN_PC_Laptops-Grand-Gaming-Days-May_3000x12000.5x._CB667947686_.jpg" alt="" />
+                </div>
+                <div>
                     <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB667972819_.jpg" alt="" />
                 </div>
                 <div>
