@@ -1,12 +1,16 @@
 import React from 'react';
 import Product from './Product';
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css';
 
 function Home() {
     return (
         <div className="home">
-            <Carousel>
+            <Carousel
+                autoPlay
+                infiniteLoop
+                showThumbs={false}>
                 <div>
                     <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB667972819_.jpg" alt="" />
                 </div>
