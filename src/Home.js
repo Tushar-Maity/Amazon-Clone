@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
     return (
         <div className="home">
-            <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/WW84/Launch/1500x600_Hero-Tall_JPN._CB669639160_.jpg" alt="" />
+            <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB667972819_.jpg" alt="" />
 
             <div className="home__row">
                 <Product 
