@@ -19,7 +19,9 @@
 }
 
 .middle__image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 15px;
+}
+
+.middle__image img {
+    width: 100%;
 }
