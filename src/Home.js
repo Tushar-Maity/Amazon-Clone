@@ -1,12 +1,19 @@
 import React from 'react';
 import Product from './Product';
+import { Carousel } from 'react-responsive-carousel';
 import './Home.css';
 
 function Home() {
     return (
         <div className="home">
-            <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB667972819_.jpg" alt="" />
-
+            <Carousel>
+                <div>
+                    <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB667972819_.jpg" alt="" />
+                </div>
+                <div>
+                    <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Apple/May/MSD/iPhone12/D23407104_IN_WL_MSD_iPhone12_DesktopTallHero_1500x600._CB669806582_.jpg" alt="" />
+                </div>
+            </Carousel>
             <div className="home__row">
                 <Product 
                     //   ₹
