@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from './Product';
 import { Carousel } from 'react-responsive-carousel';
+import Footer from './Footer';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Home.css';
 
@@ -83,6 +84,7 @@ function Home() {
             </div>
             
             {/* https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Apple/May/MSD/iPhone12/D23407104_IN_WL_MSD_iPhone12_DesktopTallHero_1500x600._CB669806582_.jpg */}
+            <Footer />
         </div>
     )
 }
