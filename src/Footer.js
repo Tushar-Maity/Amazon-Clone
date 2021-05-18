@@ -31,7 +31,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="navFooterColSpacerInner navAccessibilty"></div>
+                    
                     <div className="navFooterLinkCol navAccessibility">
                         <div className="navFooterColHead">Connect with Us</div>
                         <ul>
@@ -46,7 +46,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="navFooterColSpacerInner navAccessibilty"></div>
+                    
                     <div className="navFooterLinkCol navAccessibility">
                         <div className="navFooterColHead">Make Money with Us</div>
                         <ul>
@@ -73,7 +73,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="navFooterColSpacerInner navAccessibilty"></div>
+                    
                     <div className="navFooterLinkCol navAccessibility">
                         <div className="navFooterColHead">Let Us Help You</div>
                         <ul>
@@ -100,7 +100,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="navFooterColSpacerInner navAccessibilty"></div>
+                    
                 </div>
             </div>
             <div className="nav-footer-line"></div>

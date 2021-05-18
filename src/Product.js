@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css';
+import uuid from 'react-uuid'
 
 function Product({ id, title, price, rating, image}) {
     return (
@@ -15,12 +16,12 @@ function Product({ id, title, price, rating, image}) {
                         Array(rating)
                         .fill()
                         .map((_) => (
-                            <p>⭐</p>
+                            <p key={uuid()}>⭐</p>
                         ))
                     }
                 </div>
             </div>
-            <img src={image} alt=""/>
+            <img src={image} alt="product"/>
             <button>Add to Basket</button>
         </div>
     )
