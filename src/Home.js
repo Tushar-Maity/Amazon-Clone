@@ -32,6 +32,7 @@ function Home() {
                     rating={4}
                     image="https://m.media-amazon.com/images/I/41TEQ0dgYkS._AA210_.jpg"
                 />
+                        <p>Sorry no codding today</p>
                 <Product 
                     //   ₹
                     id={12348}
