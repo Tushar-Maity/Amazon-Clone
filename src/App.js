@@ -23,7 +23,6 @@ function App() {
       </Switch>
       </div>
     </Router>
-    <p>yhdujydy</p>
   )
 }
 
